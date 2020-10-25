@@ -8,21 +8,27 @@ function Portfolio() {
 
     return (
         <Fragment>
-
-            
-
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand" href="./Home.js">Katelynn Nguyen</a>
+            <section className="homepage">
+            <nav className="navbar navbar-expand-lg ">
+                
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto">
+​
+                <div className="collapse navbar-collapse">
+                    <ul className="navbar-nav">
                         <li className="nav-item active">
                         <Link
                         to="/about"
-                        className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+                        className={location.pathname === "/" ? "nav-link active" : "nav-link"}                       
+                        >
+                        Home
+                        </Link>
+                        </li>
+                        <li className="nav-item active">
+                        <Link
+                        to="/about"
+                        className={location.pathname === "/about" ? "nav-link active" : "nav-link"}                       
                         >
                         About
                         </Link>
@@ -47,7 +53,13 @@ function Portfolio() {
                 </div>
             </nav>
 
-            <img src="assets/images/katelynn-profile.jpg" alt="Katelynn" class="img-fluid" />
+            <img src="assets/images/ktlnn-profile.png" alt="Katelynn" class="img-fluid" />
+            <div className="typewriter">
+            <h1 className="header">Hi, I'm Katelynn Nguyen</h1>
+            </div>
+            <p className="description">I am an aspiring full stack web developer that is self-motivated and hard-working. 
+            I am an energetic and fast learner who is committed to excellent customer service and teamwork. </p>
+            </section>
         </Fragment>
     )
 }

@@ -6,7 +6,7 @@ function Portfolio() {
 
     return (
         <Fragment>
-        <h1>My Projects</h1>
+        <h1>Portfolio</h1>
         <div className="row">
             <div className="col-md-4">
                 <div className="card">
