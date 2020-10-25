@@ -6,7 +6,8 @@ function Portfolio() {
 
     return (
         <Fragment>
-        <h1>Portfolio</h1>
+        <section className="portfolio-bg">
+        <h1 style={{color:"white"}}id="portfolio">Portfolio</h1>
         <div className="row">
             <div className="col-md-4">
                 <div className="card">
@@ -78,6 +79,7 @@ function Portfolio() {
                 </div>
             </div>
         </div>
+        </section>
         </Fragment>
     )
 }
