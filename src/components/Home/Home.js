@@ -16,7 +16,7 @@ function Home() {
             <h1 className="header">Hi, I'm Katelynn Nguyen</h1>
             </div>
             <p className="description">I am an aspiring full stack web developer that is self-motivated and hard-working. 
-            I am an energetic and fast learner who is committed to excellent customer service and teamwork. </p>
+            </p>
             </section>
 
         </Fragment>

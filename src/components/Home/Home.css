@@ -1,7 +1,7 @@
-.homepage{
+/* .homepage{
   background-image: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-
-  }
+  background-size: cover;
+} */
 
 .img-fluid {
   border-radius: 50%;
@@ -67,3 +67,5 @@ p.description{
   max-width: 60%;
   font-family: 'Courier New', Courier, monospace;
 }
+
+

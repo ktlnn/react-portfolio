@@ -7,7 +7,8 @@ function Portfolio() {
     return (
         <Fragment>
         <section className="portfolio-bg">
-        <h1 style={{color:"white"}}id="portfolio">Portfolio</h1>
+        <h1 style={{color:"black", fontSize:"2px", padding:"30px"}} id="portfolio">Portfolio</h1>
+        <h2 style={{fontSize:"50px"}}>My Projects</h2>
         <div className="row">
             <div className="col-md-4">
                 <div className="card">
@@ -15,8 +16,8 @@ function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Send Foodz</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a role="button" href="https://ktlnn.github.io/send-foodz/" target="__blank" className="btn btn-outline-secondary">Webpage</a>
-                            <a role="button" href="https://ktlnn.github.io/send-foodz/" target="__blank" className="btn btn-outline-secondary">Repository</a>
+                            <a role="button" href="https://ktlnn.github.io/send-foodz/" target="__blank" className="btn">Repository</a>
+                            <a role="button" href="https://ktlnn.github.io/send-foodz/" target="__blank" className="btn">Webpage</a>
                         </div>
                 </div>
             </div>
@@ -26,8 +27,9 @@ function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Stellar Sonic</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://dry-shelf-60979.herokuapp.com/" target="__blank" className="btn btn-outline-secondary">Webpage</a>
-                            <a role="button" href="https://github.com/ktlnn/Stellar-Sonic" target="__blank" className="btn btn-outline-secondary">Repository</a>
+                            <a role="button" href="https://github.com/ktlnn/Stellar-Sonic" target="__blank" className="btn  ">Repository</a>
+                            <a href="https://dry-shelf-60979.herokuapp.com/" target="__blank" className="btn  ">Webpage</a>
+                            
                         </div>
                 </div>
             </div>
@@ -37,8 +39,9 @@ function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Employee Directory</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://ktlnn.github.io/employee-directory/" target="__blank" className="btn btn-outline-secondary">Webpage</a>
-                            <a role="button" href="https://github.com/ktlnn/employee-directory" target="__blank" className="btn btn-outline-secondary">Repository</a>
+                            <a role="button" href="https://github.com/ktlnn/employee-directory" target="__blank" className="btn  ">Repository</a>
+                            <a href="https://ktlnn.github.io/employee-directory/" target="__blank" className="btn  ">Webpage</a>
+                            
                         </div>
                 </div>
             </div>
@@ -51,8 +54,9 @@ function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Daily Planner</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://ktlnn.github.io/daily-planner/" target="__blank" className="btn btn-outline-secondary">Webpage</a>
-                            <a role="button" href="https://github.com/ktlnn/daily-planner" target="__blank" className="btn btn-outline-secondary">Repository</a>
+                            <a role="button" href="https://github.com/ktlnn/daily-planner" target="__blank" className="btn  ">Repository</a>
+                            <a href="https://ktlnn.github.io/daily-planner/" target="__blank" className="btn  ">Webpage</a>
+                            
                         </div>
                 </div>
             </div>
@@ -62,8 +66,9 @@ function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Budget Tracker</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://intense-reef-26907.herokuapp.com/" target="__blank" className="btn btn-outline-secondary">Webpage</a>
-                            <a role="button" href="https://github.com/ktlnn/budget-tracker" target="__blank" className="btn btn-outline-secondary">Repository</a>
+                            <a role="button" href="https://github.com/ktlnn/budget-tracker" target="__blank" className="btn  ">Repository</a>
+                            <a href="https://intense-reef-26907.herokuapp.com/" target="__blank" className="btn  ">Webpage</a>
+                            
                         </div>
                 </div>
             </div>
@@ -73,8 +78,9 @@ function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Send Foodz</h5>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://ktlnn.github.io/send-foodz/" target="__blank" className="btn btn-outline-secondary">Webpage</a>
-                            <a role="button" href="https://github.com/ktlnn/employee-directory" target="__blank" className="btn btn-outline-secondary">Repository</a>
+                            <a role="button" href="https://github.com/ktlnn/employee-directory" target="__blank" className="btn  ">Repository</a>
+                            <a href="https://ktlnn.github.io/send-foodz/" target="__blank" className="btn  ">Webpage</a>
+                            
                         </div>
                 </div>
             </div>

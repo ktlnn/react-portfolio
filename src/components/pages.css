@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+
 h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -5,15 +9,65 @@ h1{
     font-size: 60px;
 }
 
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+
+/* card styling */
 .card{
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
 }
 
+.card-body{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 18px;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* card buttons */
 .btn{
     margin-right: 10px;
+    margin-bottom: 10px;
+    outline: solid 2px rgb(5, 22, 5);
+    border-radius: 12px;
+    float: right;
 }
 
+a.btn:hover{
+    background-color: rgb(5, 22, 5);
+    color: white;
+    border-radius: 0px;
+}
+
+/* about me page css */
+#profile-pic{
+    border-radius: 5%;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-text{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 20px;
+}
+
+
+/* .portfolio-bg{
+    background-image: url("/assets/images/leaves-bg-btm.png");
+    background-size: cover;
+    margin-top: 0px;
+  } */
 
