@@ -19,10 +19,13 @@ h2{
 
 /* card styling */
 .card{
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;   
+    margin-bottom: 20px; 
+    box-shadow: 5px 7px rgba(43, 48, 45, 0.541); 
+    background-image: url("/assets/images/leaves-bg-btm.png");
+    color: white;
 }
 
 .card-body{
@@ -35,7 +38,7 @@ h2{
     font-size: 22px;
 }
 
-/* card buttons */
+/* portfolio card buttons */
 .btn{
     margin-right: 10px;
     margin-bottom: 10px;
@@ -45,6 +48,24 @@ h2{
 }
 
 a.btn:hover{
+    background-color: rgb(5, 22, 5);
+    color: white;
+    border-radius: 0px;
+}
+
+/* contact card */
+.contact{
+    padding: 30px;   
+    color: white; 
+}
+
+/* contact page submit button */
+a.btn.about-btn,
+a.btn{
+    color:white;
+}
+
+button.btn:hover{
     background-color: rgb(5, 22, 5);
     color: white;
     border-radius: 0px;
@@ -62,6 +83,11 @@ a.btn:hover{
 .about-text{
     font-family: 'News Cycle', sans-serif;
     font-size: 20px;
+    color: white;
+}
+
+.jumbotron{
+    box-shadow: 5px 7px rgba(43, 48, 45, 0.541); 
 }
 
 
@@ -71,3 +97,25 @@ a.btn:hover{
     margin-top: 0px;
   } */
 
+  /* footer stylling */
+
+p.footer{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+}
+
+.social{
+    display: inline-flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 3%;
+    margin-top: 50px;
+}
+
+/* card background for contact and about me page */
+.page{
+    background-image: url("/assets/images/leaves-bg-btm.png");
+}

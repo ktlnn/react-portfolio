@@ -1,11 +1,8 @@
 import React from 'react';
-import Home from "./components/Home/Home";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import MainPage from "./components/MainPage";
 import NavBar from "./components/Navbar/NavBar";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-// import ScrollspyNav from "react-scrollspy-nav";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -13,16 +10,15 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Home/>
-      <About />
-      <Portfolio />
-      <Contact />
+      
       <div>
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/" component={MainPage} />
+        <Route exact path="/about" component={MainPage} />
+        <Route exact path="/contact" component={MainPage} />
+        <Route exact path="/portfolio" component={MainPage} />
       </div>
+      
+      <Footer />
     </Router>
   );
 }
