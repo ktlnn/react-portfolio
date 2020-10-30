@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link, useLocation } from "react-router-dom";
-import './NavBar.css';
+import './navBar.css';
 import ScrollIntoView from 'react-scroll-into-view';
 
 function NavBar(){

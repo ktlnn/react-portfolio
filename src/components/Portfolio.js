@@ -7,7 +7,7 @@ function Portfolio() {
     return (
         <Fragment>
         <section className="portfolio-bg">
-        <h1 style={{color:"black", fontSize:"2px", padding:"30px"}} id="portfolio">Portfolio</h1>
+        <h1 id="portfolio">Portfolio</h1>
         <h2 style={{fontSize:"50px"}}>My Projects</h2>
         <div className="row">
             <div className="col col-md-4">

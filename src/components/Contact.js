@@ -35,7 +35,7 @@ function Contact() {
 
     return (
         <Fragment>
-            <h1 style={{ color: "black", fontSize: "2px", padding: "30px" }} id="contact">Contact</h1>
+            <h1 id="contact">Contact</h1>
             <div className="card container contact page">
                 <h1>Contact Me</h1>
                 <div className="card-body">

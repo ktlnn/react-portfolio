@@ -10,21 +10,22 @@ import {
 function Footer() {
 
     return(
-        <div>
-        <div className="icons">
-           
+        <div className="container-fluid"> 
+        <div className="fixed-bottom">
+        <div className="icons">       
                 <a href="https://github.com/ktlnn"
-                className="github social">
+                className="github social"
+                >
                 <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
+        
                 <a href="https://github.com/ktlnn"
-                className="github social">
+                className="linkedin social">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
-                </a>
-           
-           
+                </a>           
         </div>
-        <p className="footer sticky-btm">Handcrafted by me <span>&#169;</span> Katelynn 2020</p>
+        <p className="footer">Handcrafted by me <span>&#169;</span> Katelynn 2020</p>
+        </div>
         </div>
     )
 }

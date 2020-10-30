@@ -1,11 +1,8 @@
 import React, { Fragment } from 'react';
-// import { Link, useLocation } from "react-router-dom";
-import './Home.css';
-// import NavBar from '../Navbar/NavBar';
+import './home.css';
+
 
 function Home() {
-
-    // const location = useLocation();
 
     return (
         <Fragment>
@@ -17,8 +14,7 @@ function Home() {
             <p className="description">I am an aspiring full stack web developer that is self-motivated and hard-working. 
             </p>
             </section>
-
-        </Fragment>
+       </Fragment>
     )
 }
 
