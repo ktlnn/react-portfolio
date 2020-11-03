@@ -15,7 +15,7 @@ Full Stack Web Developers want to be able to showcase their skills and projects 
 
 ## Available Scripts
 In your terminal: 
-- clone repository
+- clone repository ( `git clone` git@github.com:ktlnn/react-portfolio.git )
 - run `npm install` OR `yarn install` to download dependencies needed to run application
 - run `npm start` OR `yarn start` to load webpage in your local browser
 - Happy Hacking! 
