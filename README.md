@@ -4,9 +4,11 @@
 Deployed Webpage: https://ktlnn.github.io/react-portfolio/
 
 ## User Story
+```
 AS A Web Developer
 I WANT to showcase my skills and projects on an organized webpage
 SO THAT I will appear employer ready
+```
 
 ## Business Context
 Full Stack Web Developers want to be able to showcase their skills and projects utilizing a coding language that is relevant to the coding community. Creating a portfolio with React.js allows for employers to get a feel for how well the developer can code in that language. Employers will also be able to see if their skillset matches their vision. 
