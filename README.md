@@ -20,11 +20,11 @@ I used React.js to upgrade my portfolio and turn my portfolio into a single page
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Screenshots
-![homepage-screenshot](/assets/images/homepage-screenshot.png)
-![aboutme-screenshot](/assets/images/aboutme-screenshot.png)
-![portfolio-screenshot](/assets/images/portfolio-screenshot.png)
-![contact-screenshot](/assets/images/contact-screenshot.png)
-![react-portolio-demo](/assets/images/react-portfolio-demo.gif)
+![homepage-screenshot](/public/assets/images/homepage-screenshot.png)
+![aboutme-screenshot](/public/assets/images/aboutme-screenshot.png)
+![portfolio-screenshot](/public/assets/images/portfolio-screenshot.png)
+![contact-screenshot](/public/assets/images/contact-screenshot.png)
+![react-portolio-demo](/public/assets/images/react-portfolio-demo.gif)
 
 
 ## Questions
