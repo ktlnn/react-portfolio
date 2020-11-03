@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://ktlnn.github.io/react-portfolio/",
+  "homepage": "https://ktlnn.github.io/react-portfolio/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
