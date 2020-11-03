@@ -74,12 +74,12 @@ function Portfolio() {
             </div>
             <div className="col col-md-4">
                 <div className="card">
-                    <img src="../images/Send-Foodz.png" className="card-img-top" alt="send-foodz-screenshot" />
+                    <img src="/assets/images/password-generator-screenshot.png" className="card-img-top" alt="send-foodz-screenshot" />
                         <div className="card-body">
-                            <h5 className="card-title">Send Foodz</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a role="button" href="https://github.com/ktlnn/employee-directory" target="__blank" className="btn  ">Repository</a>
-                            <a href="https://ktlnn.github.io/send-foodz/" target="__blank" className="btn  ">Webpage</a>
+                            <h5 className="card-title">Password Generator</h5>
+                            <p className="card-text">One of my first coding projects. Users are able to generate a random password to make their accounts more secure.</p>
+                            <a role="button" href="https://github.com/ktlnn/password-generator" target="__blank" className="btn  ">Repository</a>
+                            <a href="https://ktlnn.github.io/password-generator/" target="__blank" className="btn  ">Webpage</a>
                             
                         </div>
                 </div>

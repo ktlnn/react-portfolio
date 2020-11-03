@@ -61,7 +61,7 @@ p.description{
 }
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576.98px) { 
 
   .img-fluid {
     border-radius: 50%;
@@ -116,4 +116,5 @@ p.description{
     font-family: 'Courier New', Courier, monospace;
   }
       
-  }
+}
+
