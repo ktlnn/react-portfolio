@@ -31,7 +31,7 @@ function About() {
             <div className="jumbotron container page">
                 <div className="row">
                     <div className="col-md-4">
-                        <img id="profile-pic" src="/assets/images/ktlnn.jpg" alt="katelynn" />
+                        <img id="profile-pic" src={process.env.PUBLIC_URL+"/assets/images/ktlnn.jpg"} alt="katelynn" />
                         <p style={styles.p1}>Katelynn Nguyen</p>
                         <ul>
                             <li style={styles.p2}>Front-End Developer</li>

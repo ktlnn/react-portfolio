@@ -13,7 +13,7 @@ function Portfolio() {
         <div className="row">
             <div className="col col-md-4">
                 <div className="card">
-                    <img src="/assets/images/send-foodz-screenshot.png" className="card-img-top" alt="send-foodz-screenshot"/>
+                    <img src={process.env.PUBLIC_URL + 'img/send-foodz-screenshot.png'} className="card-img-top" alt="send-foodz-screenshot"/>
                         <div className="card-body">
                             <h5 className="card-title">Send Foodz</h5>
                             <p className="card-text">An application that generates random restaurants based on the inputted city. Also shows the weather of the city on search.</p>

@@ -2,7 +2,7 @@ import React from 'react';
 import MainPage from "./components/MainPage";
 import NavBar from "./components/Navbar/NavBar";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

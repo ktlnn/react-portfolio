@@ -7,7 +7,7 @@ function Home() {
     return (
         <Fragment>
             <section id="home" className="homepage">           
-            <img src="assets/images/ktlnn-profile.png" alt="Katelynn" className="img-fluid" />
+            <img src={process.env.PUBLIC_URL+"/assets/images/ktlnn-profile.png"} alt="Katelynn" className="img-fluid" />
             <div className="typewriter">
             <h1 className="header">Hi, I'm Katelynn Nguyen</h1>
             </div>
