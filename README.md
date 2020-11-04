@@ -1,7 +1,15 @@
-# React-Portfolio
+# React-Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Links
 Deployed Webpage: https://ktlnn.github.io/react-portfolio/
+
+## Table of Contents
+* [User Story](#user-story)
+* [Business Context](#business-context)
+* [Available Scripts](#available-scripts)
+* [More About My React Portfolio](#more-about-my-react-portfolio)
+* [Webpage Screenshots](#webpage-screenshots)
+* [Questions](#Questions)
 
 ## User Story
 ```
@@ -23,10 +31,7 @@ In your terminal:
 ## More About My React Portfolio
 I used React.js to upgrade my portfolio and turn my portfolio into a single page application. I explored my front-end development side and made sure to make my portfolio aesthetically pleasing. This project was very fun to work on since I am a big fan of React and I was able to have full creative freedom. Please enjoy :) 
 
-## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Screenshots
+## Webpage Screenshots
 ![homepage-screenshot](/public/assets/images/homepage-screenshot.png)
 ![aboutme-screenshot](/public/assets/images/aboutme-screenshot.png)
 ![portfolio-screenshot](/public/assets/images/portfolio-screenshot.png)
