@@ -74,10 +74,10 @@ function Portfolio() {
             </div>
             <div className="col col-md-4">
                 <div className="card">
-                    <img src="/assets/images/password-generator-screenshot.png" className="card-img-top" alt="send-foodz-screenshot" />
+                    <img src="/assets/images/weather-app-screenshot.png" className="card-img-top" alt="send-foodz-screenshot" />
                         <div className="card-body">
-                            <h5 className="card-title">Password Generator</h5>
-                            <p className="card-text">One of my first coding projects. Users are able to generate a random password to make their accounts more secure.</p>
+                            <h5 className="card-title">Weather Dashboard</h5>
+                            <p className="card-text">Search for a city and find out the current weather along with the next 5 days' forecast.</p>
                             <a role="button" href="https://github.com/ktlnn/password-generator" target="__blank" className="btn  ">Repository</a>
                             <a href="https://ktlnn.github.io/password-generator/" target="__blank" className="btn  ">Webpage</a>
                             
