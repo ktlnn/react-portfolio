@@ -12,8 +12,8 @@ function Portfolio() {
         <h2 style={{fontSize:"50px"}}>My Projects</h2>
         <div className="row">
             <div className="col col-md-4">
-                <div className="card">
-                    <img src={process.env.PUBLIC_URL + 'img/send-foodz-screenshot.png'} className="card-img-top" alt="send-foodz-screenshot"/>
+                <div className="card" >
+                    <img src={process.env.PUBLIC_URL + "/assets/images/send-foodz-screenshot.png"} className="card-img-top" alt="send-foodz-screenshot"/>
                         <div className="card-body">
                             <h5 className="card-title">Send Foodz</h5>
                             <p className="card-text">An application that generates random restaurants based on the inputted city. Also shows the weather of the city on search.</p>
@@ -24,7 +24,7 @@ function Portfolio() {
             </div>
             <div className="col col-md-4">
                 <div className="card">
-                    <img src="/assets/images/stellar-sonic-screenshot.png" className="card-img-top" alt="stellar-sonic-screenshot" />
+                    <img src={process.env.PUBLIC_URL+"/assets/images/stellar-sonic-screenshot.png"} className="card-img-top" alt="stellar-sonic-screenshot" />
                         <div className="card-body">
                             <h5 className="card-title">Stellar Sonic</h5>
                             <p className="card-text">A space to share your sound - an application where you can search for songs and add to your personal interactive playlist.</p>
@@ -36,7 +36,7 @@ function Portfolio() {
             </div>
             <div className="col col-md-4">
                 <div className="card">
-                    <img src="/assets/images/employee-directory-screenshot.png" className="card-img-top" alt="employee-directory-screenshot" />
+                    <img src={process.env.PUBLIC_URL+"/assets/images/employee-directory-screenshot.png"} className="card-img-top" alt="employee-directory-screenshot" />
                         <div className="card-body">
                             <h5 className="card-title">Employee Directory</h5>
                             <p className="card-text">Organizes employees' data in a table and includes a search bar to filter employees. Also includes a sort function that sorts data.</p>
@@ -51,7 +51,7 @@ function Portfolio() {
         <div className="row">
         <div className="col col-md-4">
                 <div className="card">
-                    <img src="/assets/images/work-day-scheduler-screenshot.png" className="card-img-top" alt="work-day-scheduler-screenshot" />
+                    <img src={process.env.PUBLIC_URL+"/assets/images/work-day-scheduler-screenshot.png"} className="card-img-top" alt="work-day-scheduler-screenshot" />
                         <div className="card-body">
                             <h5 className="card-title">Daily Planner</h5>
                             <p className="card-text">An easy to use planner for a day's work. Add, edit, and remove tasks and color codes based on current time.</p>
@@ -63,7 +63,7 @@ function Portfolio() {
             </div>
             <div className="col col-md-4">
                 <div className="card">
-                    <img src="/assets/images/budget-tracker-screenshot.png" className="card-img-top" alt="send-foodz-screenshot" />
+                    <img src={process.env.PUBLIC_URL+"/assets/images/budget-tracker-screenshot.png"} className="card-img-top" alt="send-foodz-screenshot" />
                         <div className="card-body">
                             <h5 className="card-title">Budget Tracker</h5>
                             <p className="card-text">Keeps track of incoming money and expenses. Also a Progressive Web App (PWA) that can be downloaded.</p>
@@ -75,7 +75,7 @@ function Portfolio() {
             </div>
             <div className="col col-md-4">
                 <div className="card">
-                    <img src="/assets/images/weather-app-screenshot.png" className="card-img-top" alt="send-foodz-screenshot" />
+                    <img src={process.env.PUBLIC_URL+"/assets/images/weather-app-screenshot.png"} className="card-img-top" alt="send-foodz-screenshot" />
                         <div className="card-body">
                             <h5 className="card-title">Weather Dashboard</h5>
                             <p className="card-text">Search for a city and find out the current weather along with the next 5 days' forecast.</p>

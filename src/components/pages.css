@@ -18,14 +18,20 @@ h2{
 
 
 /* card styling */
-.card{
+div.card{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px; 
     box-shadow: 5px 7px rgba(43, 48, 45, 0.541); 
-    background-image: url("/assets/images/leaves-bg-btm.png");
+    background-color: rgba(80, 94, 83, 0.726);
+    /* background-image: url("/assets/images/leaves-bg-btm.png"); */
     color: white;
+}
+
+div.card.contact{
+    display: block;
+    margin: auto;
 }
 
 .card-body{
