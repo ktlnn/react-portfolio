@@ -1,7 +1,7 @@
 # React-Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Links
-Deployed Webpage: https://ktlnn.github.io/react-portfolio/
+Deployed Webpage: https://ktlnn.github.io/react-portfolio/index.html#/
 
 ## Table of Contents
 * [User Story](#user-story)
