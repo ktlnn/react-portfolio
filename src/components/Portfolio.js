@@ -17,7 +17,7 @@ function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Send Foodz</h5>
                             <p className="card-text">An application that generates random restaurants based on the inputted city. Also shows the weather of the city on search.</p>
-                            <a role="button" href="https://ktlnn.github.io/send-foodz/" target="__blank" className="btn">Repository</a>
+                            <a role="button" href="https://github.com/ktlnn/send-foodz/" target="__blank" className="btn">Repository</a>
                             <a role="button" href="https://ktlnn.github.io/send-foodz/" target="__blank" className="btn">Webpage</a>
                         </div>
                 </div>
